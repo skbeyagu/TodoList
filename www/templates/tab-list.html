@@ -1,0 +1,14 @@
+<ion-view view-title="TodoList">
+  <ion-content>
+    <ion-list>
+      <ion-item class="" ng-repeat="todoItem in todoItemList" type="item-text-wrap" href="#/tab/todo/{{todo.id}}">
+        <h2>{{todoItem.title}}</h2>
+        <ul>
+            <li>summary:<p>{{todoItem.summary</p></p></li>
+            <li>due: <span>{{todoItem.dueDate}}</span></li>
+            <li>isComplete: <span>{{todoItem.isComplete</span></li>
+        </ul>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
